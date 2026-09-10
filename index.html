@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joaquin Geronimo — Portfolio</title>
+<meta name="description" content="Portfolio of Joaquin Geronimo — aspiring game developer and full-stack web developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="site-name">Joaquin Geronimo</a>
+  <nav class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero-label">portfolio · rev. 01</p>
+    <h1 class="hero-title">Aspiring game dev &amp;<br>full-stack web developer.</h1>
+    <p class="hero-text">
+      I build things end to end — game systems in Roblox Studio, and
+      full-stack projects for the web, from a blank page to something
+      you can click through.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See what I've built</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <div class="ruler" aria-hidden="true"></div>
+
+  <section id="work" class="work">
+    <h2 class="section-heading">Work</h2>
+    <div id="project-list" class="project-list"><!-- rendered by script.js --></div>
+  </section>
+
+  <div class="ruler" aria-hidden="true"></div>
+
+  <section id="contact" class="contact">
+    <h2 class="section-heading">Contact</h2>
+    <dl class="spec-sheet">
+      <div class="spec-row">
+        <dt>Email</dt>
+        <dd><a href="mailto:waki.geronimo@gmail.com">waki.geronimo@gmail.com</a></dd>
+      </div>
+      <div class="spec-row">
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/AJG37" target="_blank" rel="noopener">github.com/AJG37</a></dd>
+      </div>
+      <div class="spec-row">
+        <dt>LinkedIn</dt>
+        <dd><a href="https://www.linkedin.com/in/joaquin-geronimo-5490483b7/" target="_blank" rel="noopener">linkedin.com/in/joaquin-geronimo</a></dd>
+      </div>
+    </dl>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Built by hand with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
