@@ -29,6 +29,14 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     link: null,
   },
+  {
+    title: "Sort For Treasure",
+    status: "(LINK SOON)",
+    description:
+      "A browser-based game built from scratch with HTML, CSS, and JavaScript. You drag and drop items and sort them into what category they're in."
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: null,
+  },
 ];
 
 function renderProjects() {
