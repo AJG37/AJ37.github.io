@@ -17,15 +17,15 @@ const projects = [
     title: "Cycle Life",
     status: "In progress",
     description:
-      "A cycling life-sim built in Roblox where players take on jobs like food delivery, package runs, and bike repair, and level up rider skills — sprinting, endurance, and climbing — to earn a living on two wheels.",
+      "A cycling life-sim built in Roblox where players take on jobs like food delivery, package runs, and bike repair, and level up rider skills — sprinting, endurance, and climbing — to earn a living and race on two wheels.",
     tags: ["Roblox Studio", "Lua"],
     link: null,
   },
   {
-    title: "Browser Game (title coming soon)",
-    status: "Add your link",
+    title: "Sort For Treasure",
+    status: "(LINK SOON)",
     description:
-      "A browser-based game built from scratch with HTML, CSS, and JavaScript. Swap this description for your own — say what the player does and what makes it fun.",
+      "A browser-based game built from scratch with HTML, CSS, and JavaScript. You drag and drop items and sort them into what category they're in."
     tags: ["HTML", "CSS", "JavaScript"],
     link: null,
   },
@@ -57,7 +57,7 @@ function renderProjects() {
     })
     .join("") + `
       <div class="project-card placeholder">
-        More builds go here — add them in script.js
+        More projects in the future!
       </div>
     `;
 }
